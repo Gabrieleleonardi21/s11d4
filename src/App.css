@@ -1,0 +1,6 @@
+/* Altezza fissa e ritaglio: le immagini dell'API hanno proporzioni diverse
+   e senza questo le card risulterebbero disallineate */
+.article-img {
+  height: 180px;
+  object-fit: cover;
+}
